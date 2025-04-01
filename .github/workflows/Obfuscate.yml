@@ -6,7 +6,7 @@ on:
       - main
   schedule:
         # Runs everyday at 1:00 AM
-        - cron: "0 1 * * *"
+        - cron: "0 2 * * *"
 
 permissions:
   contents: write
@@ -51,6 +51,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: main
-          commit_message: ':arrow_up: update latest bpb panel'
+          commit_message: ':arrow_up: update latest my project'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
           push_options: '--set-upstream'
